@@ -1,5 +1,15 @@
-for (var firstNum = 0; firstNum < 2; firstNum++) {
-for (var secondNum = 0; secondNum < 10; secondNum++) {
-    console.log(firstNum + "," + secondNum)
-}
+for(var i = 1;i<11;i++){
+    if (i==1){
+        console.log("Golden medal");
+    }
+    else if (i==2){
+        console.log("Silver medal");
+    }
+    else if(i==3){
+        console.log("Bronze medal");
+    }
+    else {
+        console.log(i++)
+    }
+
 }
