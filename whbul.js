@@ -16,6 +16,6 @@ function fibonacciGenerator(n){
     return output;
 }
 
-output = fibonacciGenerator(1);
+output = fibonacciGenerator(5);
 console.log(output)
 
